@@ -10,7 +10,20 @@ body:
       value: |
         Merci de prendre le temps de remplir le formulaire.
         S'il s'agit d'un nouveau besoin, merci d'utiliser le formulaire dédié.
-  
+  - type: dropdown
+    id: environnement
+    attributes:
+      label: Environnement
+      description: Dans quel environnement cela est il arrivé ?
+      options:
+        - Production
+        - Recette
+        - Saisie
+        - Projet
+        - Migration
+      default: Production
+    validations:
+      required: true
   - type: input
     id: user
     attributes:
@@ -27,7 +40,6 @@ body:
       placeholder: ex. https://neo.construction
     validations:
       required: true
-  
   - type: textarea
     id: what-happened
     attributes:
@@ -37,21 +49,19 @@ body:
       value: "Un bug est survenu!"
     validations:
       required: true
-  - type: dropdown
-    id: environnement
+  - type: textarea
+    id: repro
     attributes:
-      label: Environnement
-      description: Dans quel environnement cela est il arrivé ?
-      options:
-        - Production
-        - Recette
-        - Saisie
-        - Projet
-        - Migration
-      default: Production
+      label: Etapes pour reproduire
+      description: "Commet reproduire le bug ? Etape par étape."
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
     validations:
       required: true
-
   - type: checkboxes
     id: vérification
     attributes:
