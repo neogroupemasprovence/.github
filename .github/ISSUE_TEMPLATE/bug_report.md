@@ -1,4 +1,3 @@
----
 name: Bug
 about: Créer un rapport de bug
 title: "[Bug]: "
