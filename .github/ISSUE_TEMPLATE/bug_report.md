@@ -1,10 +1,9 @@
 name: Bug
-about: Créer un rapport de bug
+description: Créer un rapport de bug
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
   - atournayre
-
 body:
   - type: markdown
     attributes:
