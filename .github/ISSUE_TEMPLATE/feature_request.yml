@@ -1,0 +1,45 @@
+name: Nouvelle fonctionnalité
+description: Décrivez la nouvelle fonctionnalité
+title: "[Feature]: "
+labels: ["➕ Nouvelle fonctionnalité"]
+assignees:
+  - atournayre
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: La fonctionnalité est elle associée à un problème. Décrivez le.
+      placeholder: Une description claire et concise du problème.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: Décrivez la solution que vous souhaitez
+      placeholder: Une description claire et concise du comportement souhaité.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Décrivez les alternatives que vous avez envisagé
+      placeholder: Une description claire et concise des alternatives envisagées
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte additionnel
+      description: Donnez du contexte à votre demande
+      placeholder: Ajoutez du contexte ou des captures d'écran ici
+  - type: checkboxes
+    id: verification
+    attributes:
+        label: Vérification
+        description: En validant cette issue, je confirme les points suivants
+        options:
+            - label: J'ai vérifié qu'il n'existe pas déjà une demande identique
+              required: true
+            - label: J'ai discuté de cette fonctionnalité avec l'équipe au préalable
+              required: true
