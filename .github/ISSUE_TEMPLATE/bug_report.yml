@@ -21,7 +21,7 @@ body:
               - Saisie
               - Projet
               - Migration
-          default: Production
+          default: 0
       validations:
           required: true
     - type: input
