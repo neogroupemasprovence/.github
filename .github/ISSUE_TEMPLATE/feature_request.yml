@@ -10,7 +10,7 @@ body:
     id: description
     attributes:
       label: Pourquoi ?
-      description: Précisez la raison pour laquelle vous souhaitez cette nouvelle fonctionnalité. Pas de capture d'écran.
+      description: Précisez la raison pour laquelle vous souhaitez cette nouvelle fonctionnalité.
       placeholder: Une description claire et concise de la raison (métier).
     validations:
       required: true
@@ -18,7 +18,7 @@ body:
     id: solution
     attributes:
       label: Solution
-      description: Décrivez la solution que vous souhaitez
+      description: Décrivez la solution que vous souhaitez. Pas de capture d'écran.
       placeholder: Une description claire et concise du comportement souhaité.
     validations:
       required: true
