@@ -1,16 +1,17 @@
 name: Nouvelle fonctionnalité
 description: Décrivez la nouvelle fonctionnalité
 title: "[Feature]: "
-labels: ["➕ Nouvelle fonctionnalité"]
+labels: ["➕ Nouvelle fonctionnalité", "📂 TMA"]
+projects: [neogroupemasprovence/4]
 assignees:
-  - atournayre
+  - cdupontgroupemasprovence
 body:
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: La fonctionnalité est elle associée à un problème. Décrivez le.
-      placeholder: Une description claire et concise du problème.
+      label: Pourquoi ?
+      description: Précisez la raison pour laquelle vous souhaitez cette nouvelle fonctionnalité. Pas de capture d'écran.
+      placeholder: Une description claire et concise de la raison (métier).
     validations:
       required: true
   - type: textarea
@@ -22,17 +23,17 @@ body:
     validations:
       required: true
   - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives
-      description: Décrivez les alternatives que vous avez envisagé
-      placeholder: Une description claire et concise des alternatives envisagées
-  - type: textarea
     id: contexte
     attributes:
       label: Contexte additionnel
       description: Donnez du contexte à votre demande
       placeholder: Ajoutez du contexte ou des captures d'écran ici
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Décrivez les alternatives que vous avez envisagé
+      placeholder: Une description claire et concise des alternatives envisagées
   - type: checkboxes
     id: verification
     attributes:
@@ -42,4 +43,6 @@ body:
             - label: J'ai vérifié qu'il n'existe pas déjà une demande identique
               required: true
             - label: J'ai discuté de cette fonctionnalité avec l'équipe au préalable
-              required: true
+              required: false
+            - label: La fonctionnalité est en cours de réflexion
+              required: false
