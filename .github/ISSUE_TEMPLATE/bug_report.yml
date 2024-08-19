@@ -41,25 +41,32 @@ body:
       validations:
           required: true
     - type: textarea
-      id: what-happened
+      id: constat
       attributes:
-          label: Que s'est il passé ?
-          description: Dites nous également quel était le comportement attendu
-          placeholder: Dites nous ce que vous voyez!
-          value: "Un bug est survenu !"
+          label: Constat
+          description: Dans un premier temps, indiquez nous ce qui semble ne pas fonctionner comme prévu
+          placeholder: Dans un premier temps, indiquez nous ce qui semble ne pas fonctionner comme prévu
       validations:
           required: true
     - type: textarea
       id: repro
       attributes:
           label: Etapes pour reproduire
-          description: "Commet reproduire le bug ? Etape par étape."
+          description: "Comment reproduire le comportement ? Etape par étape."
           value: |
               1.
               2.
               3.
               ...
           render: bash
+      validations:
+          required: true
+    - type: textarea
+      id: souhaite
+      attributes:
+          label: Comportement souhaité
+          description: Maintenant, indiquez nous le comportement qui est souhaité
+          placeholder: Dites nous ce que vous vous attendiez à voir, vous pouvez ajouter des captures d'écran
       validations:
           required: true
     - type: checkboxes
