@@ -2,7 +2,7 @@ name: Bug
 description: Créer un rapport de bug
 title: "[Bug]: "
 labels: ["🐛 Bug", "📂 TMA"]
-projects: ["neogroupemasprovence/projects/4"]
+projects: [neogroupemasprovence/4]
 assignees:
     - atournayre
 body:
