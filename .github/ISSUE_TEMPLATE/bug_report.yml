@@ -45,14 +45,14 @@ body:
       attributes:
           label: Constat
           description: Dans un premier temps, indiquez nous ce qui semble ne pas fonctionner comme prévu
-          placeholder: Dites nous ce que vous constatez
+          placeholder: Dans un premier temps, indiquez nous ce qui semble ne pas fonctionner comme prévu
       validations:
           required: true
     - type: textarea
       id: repro
       attributes:
           label: Etapes pour reproduire
-          description: "Commet reproduire le comportement ? Etape par étape."
+          description: "Comment reproduire le comportement ? Etape par étape."
           value: |
               1.
               2.
