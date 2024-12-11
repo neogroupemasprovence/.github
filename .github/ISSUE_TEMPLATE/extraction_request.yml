@@ -6,18 +6,18 @@ projects: [neogroupemasprovence/3]
 assignees:
   - cdupontgroupemasprovence
 body:
-    - type: dropdown
-      id: environnement
-      attributes:
-          label: Type d'extraction
-          description: L'extraction est ponctuelle, récurrente ou doit elle pouvoir être réalisée par un utilisateur ?
-          options:
-              - Ponctuelle
-              - Récurrente
-              - Le destinataire doit être autonome
-          default: 0
-      validations:
-          required: true
+  - type: dropdown
+    id: environnement
+    attributes:
+        label: Type d'extraction
+        description: L'extraction est ponctuelle, récurrente ou doit elle pouvoir être réalisée par un utilisateur ?
+        options:
+            - Ponctuelle
+            - Récurrente
+            - Le destinataire doit être autonome
+        default: 0
+    validations:
+        required: true
   - type: textarea
     id: description
     attributes:
