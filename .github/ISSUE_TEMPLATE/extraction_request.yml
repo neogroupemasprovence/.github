@@ -1,0 +1,48 @@
+name: Nouvelle fonctionnalité (Extraction)
+description: Décrivez la nouvelle fonctionnalité
+title: "[Feature]: "
+labels: ["➕ Nouvelle fonctionnalité", "📂 Extraction"]
+projects: [neogroupemasprovence/3]
+assignees:
+  - cdupontgroupemasprovence
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Pourquoi ?
+      description: Précisez la raison pour laquelle vous souhaitez cette nouvelle fonctionnalité.
+      placeholder: Une description claire et concise de la raison (métier).
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: Décrivez la solution que vous souhaitez. Pas de capture d'écran.
+      placeholder: Une description claire et concise du comportement souhaité.
+    validations:
+      required: true
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte additionnel
+      description: Donnez du contexte à votre demande
+      placeholder: Ajoutez du contexte ou des captures d'écran ici
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Décrivez les alternatives que vous avez envisagé
+      placeholder: Une description claire et concise des alternatives envisagées
+  - type: checkboxes
+    id: verification
+    attributes:
+        label: Vérification
+        description: En validant cette issue, je confirme les points suivants
+        options:
+            - label: J'ai vérifié qu'il n'existe pas déjà une demande identique
+              required: true
+            - label: J'ai discuté de cette fonctionnalité avec l'équipe au préalable
+              required: false
+            - label: La fonctionnalité est en cours de réflexion
+              required: false
