@@ -47,6 +47,18 @@ body:
       description: Décrivez les alternatives que vous avez envisagé
       placeholder: Une description claire et concise des alternatives envisagées
   - type: checkboxes
+    id: structure
+    attributes:
+        label: Structure des données
+        description: En validant cette issue, je confirme que j'ai bien réfléchi aux données souhaitées. Toute modification entrainera la clôture de l'issue et l'arrêt des développements.
+        options:
+            - label: Je n'ai pas oublié de colonne
+              required: true
+            - label: L'ordre des colonnes est bien celui souhaité
+              required: true
+            - label: Le formatage des colonnes est bien celui souhaité
+              required: true
+  - type: checkboxes
     id: verification
     attributes:
         label: Vérification
