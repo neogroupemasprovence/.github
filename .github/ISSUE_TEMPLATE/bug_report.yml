@@ -77,3 +77,14 @@ body:
           options:
               - label: J'ai vérifié qu'il n'existe pas déjà un rapport de bug identique
                 required: true
+    - type: input
+      id: request_id
+      attributes:
+          label: Code erreur
+          description: Quel est le code erreur ?
+          placeholder: A2E5-1Z3R
+    - type: input
+      id: sentry
+      attributes:
+          label: Url Sentry
+          description: L'url Sentry
