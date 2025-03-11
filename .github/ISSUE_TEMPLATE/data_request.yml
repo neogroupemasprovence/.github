@@ -1,7 +1,7 @@
 name: Nouvelle fonctionnalité (Data)
 description: Décrivez la nouvelle fonctionnalité
 title: "[Feature]: "
-labels: ["➕ Feature", "📂 Datas", "📂 TMA"]
+labels: ["➕ Feature", "📂 Data", "📂 TMA"]
 projects: ["neogroupemasprovence/3", "neogroupemasprovence/4"]
 assignees:
   - cdupontgroupemasprovence
