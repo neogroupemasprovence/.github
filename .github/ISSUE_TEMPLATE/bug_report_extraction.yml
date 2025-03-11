@@ -1,7 +1,7 @@
-name: Bug (Extraction)
+name: Bug (Data)
 description: Créer un rapport de bug
 title: "[Bug]: "
-labels: ["🐛 Bug", "📂 Extraction"]
+labels: ["🐛 Bug", "📂 Data", "📂 TMA"]
 projects: [neogroupemasprovence/3]
 assignees:
     - atournayre
