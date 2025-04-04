@@ -1,7 +1,10 @@
 name: 🚀 Livraison d'une release
 description: Checklist complète avant, pendant et après la livraison d'une release
-title: "🚀 Livraison de la release vX.Y.Z"
-labels: [release]
+title: "🚀 Livraison de la release X.Y.Z"
+labels: ["📂 TMA"]
+projects: [neogroupemasprovence/4]
+assignees:
+  - atournayre
 body:
   - type: markdown
     attributes:
