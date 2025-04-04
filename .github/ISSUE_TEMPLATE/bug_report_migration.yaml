@@ -1,6 +1,6 @@
 name: Bug (Migration Symfony 6)
 description: Créer un rapport de bug
-title: "[Bug]: "
+title: "🐛 FONCTIONNALITÉ - Précision"
 labels: ["🐛 Bug", "📂 Migration Symfony 6"]
 projects: [neogroupemasprovence/5]
 assignees:
