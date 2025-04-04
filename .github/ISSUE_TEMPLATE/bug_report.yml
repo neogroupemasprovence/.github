@@ -1,6 +1,6 @@
 name: Bug
 description: Créer un rapport de bug
-title: "[Bug]: "
+title: "🐛 FONCTIONNALITÉ - Précision"
 labels: ["🐛 Bug", "📂 TMA"]
 projects: [neogroupemasprovence/4]
 assignees:
