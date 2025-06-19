@@ -1,6 +1,6 @@
 name: Retour KO
 description: Retour KO
-title: "💥 RETOUR KO 💥 Description"
+title: "💥 RETOUR KO - Description"
 labels: ["🐛 Bug", "📂 TMA"]
 projects: [neogroupemasprovence/4]
 assignees:
@@ -22,7 +22,7 @@ body:
               - Saisie
               - Projet
               - Migration
-          default: 0
+          default: 1
       validations:
           required: true
     - type: input
@@ -33,19 +33,11 @@ body:
           placeholder: John Doe
       validations:
           required: true
-    - type: input
-      id: video
+    - type: textarea
+      id: debug
       attributes:
-          label: Vidéo
-          description: Vidéo de l'erreur
-      validations:
-          required: false
-    - type: input
-      id: url
-      attributes:
-          label: URL
-          description: Quelle est l'url de la page concernée ?
-          placeholder: ex. https://neo.construction
+          label: Debug ou URL
+          description: Les informations de debug ou l'URL
       validations:
           required: true
     - type: textarea
@@ -68,6 +60,13 @@ body:
               ...
       validations:
           required: true
+    - type: input
+      id: video
+      attributes:
+          label: Vidéo
+          description: Vidéo de l'erreur
+      validations:
+          required: false
     - type: textarea
       id: souhaite
       attributes:
@@ -84,8 +83,3 @@ body:
           options:
               - label: J'ai vérifié qu'il n'existe pas déjà un rapport de bug identique
                 required: true
-    - type: textarea
-      id: debug
-      attributes:
-          label: Debug
-          description: Les informations de debug
