@@ -26,14 +26,6 @@ body:
       validations:
           required: true
     - type: input
-      id: user
-      attributes:
-          label: Utilisateur
-          description: Quel est l'utilisateur utilisé ?
-          placeholder: John Doe
-      validations:
-          required: true
-    - type: input
       id: url
       attributes:
           label: URL
@@ -82,3 +74,5 @@ body:
       attributes:
           label: Debug
           description: Les informations de debug
+      validations:
+          required: true
