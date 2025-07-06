@@ -11,20 +11,6 @@ body:
         value: |
           Merci de prendre le temps de remplir le formulaire.
           S'il s'agit d'un nouveau besoin, merci d'utiliser le formulaire dédié.
-    - type: dropdown
-      id: environnement
-      attributes:
-          label: Environnement
-          description: Dans quel environnement cela est il arrivé ?
-          options:
-              - Production
-              - Recette
-              - Saisie
-              - Projet
-              - Migration
-          default: 1
-      validations:
-          required: true
     - type: textarea
       id: debug
       attributes:
