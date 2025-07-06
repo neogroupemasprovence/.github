@@ -11,26 +11,11 @@ body:
         value: |
           Merci de prendre le temps de remplir le formulaire.
           S'il s'agit d'un nouveau besoin, merci d'utiliser le formulaire dédié.
-    - type: dropdown
-      id: environnement
+    - type: textarea
+      id: debug
       attributes:
-          label: Environnement
-          description: Dans quel environnement cela est il arrivé ?
-          options:
-              - Production
-              - Recette
-              - Saisie
-              - Projet
-              - Migration
-          default: 0
-      validations:
-          required: true
-    - type: input
-      id: url
-      attributes:
-          label: URL
-          description: Quelle est l'url de la page concernée ?
-          placeholder: ex. https://neo.construction
+          label: Debug
+          description: Les informations de debug
       validations:
           required: true
     - type: textarea
@@ -69,10 +54,4 @@ body:
           options:
               - label: J'ai vérifié qu'il n'existe pas déjà un rapport de bug identique
                 required: true
-    - type: textarea
-      id: debug
-      attributes:
-          label: Debug
-          description: Les informations de debug
-      validations:
-          required: true
+
